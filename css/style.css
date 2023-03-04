@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.logo img{
+  width: auto;
+  height: 700px;
+}
+.subtpro, .logo {
+  text-align: center;
+}
+
+.caixona{
+  display: flex;
+  height: 100%;
+  width: auto;
+  margin-top: 5px;
+  justify-content: center;
+  padding-bottom: 5%;
+  flex-wrap: wrap;
+}
+.card{
+  margin: 20px;
+  transition: 0.6s;
+}
+.card:hover{
+transform: scale(1.07);
+border-color: rgb(254, 230, 9);
+}
+
+.cardHome{
+  transition: 0.6s;
+  border: none;
+}
+
+.cardHome:hover{
+  transform: scale(1.07);
+
+  }
+
+  /*Cookies*/
+  
+  .CookieMessage {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #121212;
+    z-index: 999;
+    display: none;
+  }
+  
+  .CookieMessage-content {
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 12px;
+
+  }
+
+  .CookieMessage-content a{
+    color: white;
+  }
+
+  .CookieMessage-content p{
+    margin: 0 0 20px 0;
+  }
+  
+  .CookieMessage-button {
+    background: #00C2FF;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  
+  }
+
+  .CookieMessage-button:hover{
+    background: #5cd9ff;
+  }
+  #contraste{
+    cursor: pointer;
+  }

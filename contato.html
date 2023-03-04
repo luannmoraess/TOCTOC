@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOCTOC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="shortcut icon" href="img/picwish.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2?family= Poppins: wght @500 & display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Vlibras -->
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <!-- Fim Vlibras -->
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="home.html"> <img src="img/Prancheta 84.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projetos.html">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+    <section class="text-center container-md" style="margin-top: 100px; margin-bottom: 100px;">
+      <div class="row">
+
+        <div class="col-sm-6">
+          <h2 class="text-center my-3">Estamos Aqui </h2>
+          <div class="align-items-center mx-3"><iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.5729087228565!2d-48.353203199999996!3d-21.6025881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b91fce00e00abd%3A0xc997bd3cbed71ed3!2sTOCTOC%20MAT%C3%83O%20SP%20-%20Portas%20Mat%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1667564271129!5m2!1spt-BR!2sbr"
+              width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <h2 class="text-center my-3">Siga-nos</h2>
+          <a href="https://api.whatsapp.com/send?phone=%2B551633825358&fbclid=IwAR1Htar9SM-KqP1yiKnJg2PetEtdsA43l3fm0FBtoOgFsvdclRDGzJjEDqw"
+            target="_blank"><img class="img-fluid" src="./img/ícone-whatsapp.png" alt="whatsapp"></a>
+          <a href="https://www.instagram.com/toctoc_puxadores/" target="_blank"><img class="img-fluid"
+              src="./img/ícone-instagram.png" alt="instagram"></a>
+          <a href="https://www.facebook.com/toctocpuxadores" target="_blank "><img class="img-fluid"
+              src="./img/ícone-facebook.png" alt="facebook"></a>
+          <a href="https://www.youtube.com/channel/UCQLtsspnhFZZdcXlgBl--og/featured" target="_blank"><img
+              class="img-fluid" src="./img/ícone-youtube.png" alt="youtube"></a>
+          <p class="text-center my-3">@2022 Politica de privacidade</p>
+        </div>
+
+        <div class="col-sm">
+          <div class="d-flex" style="height: 100%;">
+            <div class="vr"></div>
+          </div>
+        </div>
+
+        <div class="col-sm-5">
+          <h2 class="text-center my-3"> Vamos Conversar... </h2>
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-xs-8">
+                  <input onclick="corpadraonome()" id="name" type="text" name="fname" placeholder="Qual seu nome?" class="form-control ">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="row">
+              <div class ="col-xs-8">	 
+                  <input onclick="corpadraoemail()" id="email" type="email" name="lname" placeholder="Qual seu Email?" class="form-control last" style="margin-top: 10px;">
+              </div>
+            </div>
+          </div>
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-xs-8"	>	 
+                      <input onclick="corpadraosugest()" id="sugest" type="text" name="email" placeholder="O que deseja dizer?" class="form-control" style="height: 200px; margin-top: 100px;">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+                <div id="enviar" onclick="validacao()" class="btn btn-warning" style="margin-top: 30px; background-color: #32CD32; border-color: #32CD32; color: #fff;">Enviar</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white pt-5 pb-4 flex-column">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Empresa</h5>
+          <p>A TOCTOC aguarda você para um otimo atendimento, nosso forte são portas, puxadores e fechaduras. porém
+            se pudermos te ajudar com mais alguma coisa estaremos a sua disposição tanto em Matão quanto na região.</p>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Produtos</h5>
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Portas</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Maçanetas</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Janelas</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Materiais Basicos</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Links Úteis</h5>
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Inicio</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Blog</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Fale Conosco</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Maps</a>
+          </p>
+        </div>
+
+
+
+        <div class="col-md-3 col-lg-3 col-xl-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Endereço</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i> R. São Lourenço, 2011 - Jardim Ballista, Matão - SP, 15990-250
+          </p>
+
+          <p>
+            <i class="fas fa-envelope mr-3"></i> toctocpuxadores@toctocpuxadores.com.br
+          </p>
+
+          <p>
+            <i class="fas fa-phone mr-3"></i> (16) 3382-5358
+          </p>
+        </div>
+
+      </div>
+      <hr class="mb-4">
+
+      <div class="row align-items-center">
+
+        <div class="cod-mb-7 col-lg-8">
+          <p><strong class="text-warning">© Todos os direitos reservados | Desenvolvido por S.I-2
+              2022-2024</strong></p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+
+          <div class="text-center text-md-ridght">
+
+            <ul class="list-unstyled list-inline">
+
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-whatsapp"></i></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-instagram"></i></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+    <script src="Script/script.js"></script>
+    <script type="text/javascript" src="Script/jquery-3.6.1.js"></script>
+</body>

@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOCTOC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="shortcut icon" href="img/picwish.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2?family= Poppins: wght @500 & display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Cookies -->
+  
+  <div id="cookie-notification" class="CookieMessage" style="display: none;">
+    <div class="CookieMessage-content"> 
+      <p>Este site utiliza cookies de navegação para a melhor experiência do usuário. <a href="https://exemplo/politicas-de-privacidade">Saiba mais</a></p>
+      <p><a id="cookie-notification-close" class="CookieMessage-button" href="#">Aceitar</a></p>          
+    </div>
+  </div>
+  
+  <!-- Vlibras -->
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <!-- Fim Vlibras -->
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="home.html"> <img src="img/Prancheta 84.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link"><Img id="contraste" style="width:20px; height: 20px;" class="img-nav" src="img/contraste.svg" alt="Contraste"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projetos.html">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fim Navbar  -->
+
+  <!-- Conteudo -->
+
+  <main>
+    <div id="carouselExampleCaptions" class=" carousel slide mt-3" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img src="img/cozinha.jpg" class="d-block w-100 c-img" alt="Interior de uma cozinha">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Batentes de anjelim</h5>
+            <p>Alem de tudo que já vendemos ainda temos batentes resistentes para você</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="img/portas_pormad_r.png" class="d-block w-100 c-img" alt="Interior de um quarto">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Batentes de anjelim</h5>
+            <p>Alem de tudo que já vendemos ainda temos batentes resistentes para você</p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="img/carrossel.jpg" class="d-block w-100 c-img" alt="Interior de um quarto">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Batentes de anjelim</h5>
+            <p>Alem de tudo que já vendemos ainda temos batentes resistentes para você</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Proximo</span>
+      </button>
+    </div>
+
+
+    <section class="text-center container-md">
+      <div class="row my-3">
+        <h2 class="text-center my-3">Produtos Mais Vendidos</h2>
+        <div class="col rounded  mx-3 cardHome"><a href="projetos.html"><img class="img-fluid" src="img/mesa.jpg " 
+          alt="Diversas mesas de madeira."></a>
+          <h4>Mesas</h4>
+        </div>
+
+        <div class="col rounded mx-3 cardHome"><a href="projetos.html"><img class="img-fluid" src="img/bancos.jpg"
+            alt="Diversas cadeiras alinhadas de madeira"></a>
+          <h4>Cadeiras</h4>
+        </div>
+
+      </div>
+      <div class="col rounded mb-3 cardHome" ><a href="projetos.html"><img class="img-fluid"
+            src="img/madeira.jpg" alt="Tabuas toras e semelhantes"></a></div>
+          <h4>Tábuas, Toras e Semelhantes</h4>
+
+    </section>
+  </main>
+
+  <!-- Fim conteudo -->
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-5 pb-4 flex-column">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Empresa</h5>
+          <p>A TOCTOC aguarda você para um otimo atendimento, nosso forte são portas, puxadores e fechaduras. porém
+            se pudermos te ajudar com mais alguma coisa estaremos a sua disposição tanto em Matão quanto na região. </p>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Produtos</h5>
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Portas</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Maçanetas</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Janelas</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="">Materiais Basicos</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Links Úteis</h5>
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="home.html">Inicio</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="sobre.html">Sobre</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;" href="contato.html">Fale Conosco</a>
+          </p>
+
+          <p>
+            <a class="text-white" style="text-decoration: none;"
+              href="https://www.google.com.br/maps/place/TOCTOC+MATÃO+SP+-+Portas+Matão/@-21.602448,-48.3531682,17z/data=!3m1!4b1!4m5!3m4!1s0x94b91fce00e00abd:0xc997bd3cbed71ed3!8m2!3d-21.602448!4d-48.3531682">Maps</a>
+          </p>
+        </div>
+
+
+
+        <div class="col-md-3 col-lg-3 col-xl-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Endereço</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i> R. São Lourenço, 2011 - Jardim Ballista, Matão - SP, 15990-250
+          </p>
+
+          <p>
+            <i class="fas fa-envelope mr-3"></i> toctocpuxadores@toctocpuxadores.com.br
+          </p>
+
+          <p>
+            <i class="fas fa-phone mr-3"></i> (16) 3382-5358
+          </p>
+        </div>
+
+      </div>
+      <hr class="mb-4">
+
+      <div class="row align-items-center">
+
+        <div class="cod-mb-7 col-lg-8">
+          <p><strong class="text-warning">© Todos os direitos reservados | Desenvolvido por S.I-2
+              2022-2024</strong></p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+
+          <div class="text-center text-md-ridght">
+
+            <ul class="list-unstyled list-inline">
+
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-whatsapp"></i></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-instagram"></i></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Fim Footer -->
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+    
+
+</body>
+<script src="Script/script.js"></script>
+</html>
